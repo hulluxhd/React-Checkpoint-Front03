@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './components/About';
+import Carrossel from './components/Carrossel';
+import Header from './components/Header';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Projects from './components/Projects';
+import Tecnologias from './components/Tecnologias';
+import Footer from './components/Footer';
 
 function App() {
+
+  function irAte(posicao){
+    const local = document.getElementById(posicao)
+    console.log(local, typeof posicao)
+    local.scrollIntoView({behavior: "smooth"})
+  }
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header onClick={irAte} conteudo={[{c: "About"}, {c: "Projetos"}, {c: "Contato"}]}/>
+    <About/>
+    <Carrossel />
+    <Projects/>
+    <Tecnologias/>
+    <Footer/>
+    </>
   );
 }
 

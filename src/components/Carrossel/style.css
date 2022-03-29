@@ -1,0 +1,19 @@
+.carousel-container{
+    padding: 0px 30px 30px;
+    background-color: #FCD0A1;
+    
+    
+    
+}
+
+.slick-prev{
+    color: black;
+}
+
+.slider-container{
+    width: 100%;
+    max-width:75vw;
+    flex: 0 1 calc(100% - 1em);
+    margin: 0 auto;
+  
+}

@@ -1,0 +1,37 @@
+header{
+    
+    background-color: #FCD0A1;
+}
+
+header div{
+    max-width: calc(100% - 10rem);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+    
+}
+
+.header-item{
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.25s;
+    border-radius: 9px;
+}
+
+.header-item:hover{
+    background-color: #B1B695;
+
+}
+
+/* animações */
+

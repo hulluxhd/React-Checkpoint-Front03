@@ -1,0 +1,46 @@
+.tecnologias-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+    background-color: #FCD0A1;
+    padding: 50px;
+    
+}
+
+.tecnologias-especialidade{
+    padding: 10px;
+    background-color: #B1B695;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    flex: 0 1 30%;
+    min-height: 300px;
+    min-width: 300px;
+
+    
+}
+.tecnologias-tecs{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    
+}
+
+.tecnologias-paragrafo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 7px 0;
+}
+
+.tecnologias-p-span{
+    font-size: 1.2rem;
+}
